@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/text_color_group"
+        android:checkableBehavior="single">
+    <item android:id="@+id/dashboard" android:title="Home" android:icon="@drawable/ic_home_black_24dp"></item>
+    <item android:id="@+id/plus" android:title="Plus" android:icon="@drawable/ic_filter_9_plus_black_24dp"></item>
+    <item android:id="@+id/freecourse" android:title="Free Courses" android:icon="@drawable/ic_library_books_black_24dp" ></item>
+    <item android:id="@+id/specialcourse" android:title="Special Courses" android:icon="@drawable/ic_ondemand_video_black_24dp"></item>
+    </group>
+    <group
+        android:id="@+id/text_color_group1"
+        android:checkableBehavior="single">
+    <item android:id="@+id/language" android:title="Language" android:icon="@drawable/ic_language_black_24dp"></item>
+    <item android:id="@+id/message" android:title="Messages" android:icon="@drawable/ic_message_black_24dp"></item>
+    <item android:id="@+id/issue" android:title="Report an Issue" android:icon="@drawable/ic_report_problem_black_24dp"></item>
+    </group>
+</menu>

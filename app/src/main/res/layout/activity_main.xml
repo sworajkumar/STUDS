@@ -1,0 +1,52 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#982F72"
+    tools:context=".Activity.SpalshActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="@drawable/circle_round_background"
+                android:layout_width="250dp"
+                android:src="@drawable/education1"
+                android:layout_height="250dp"
+                android:id="@+id/imageView2" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:text="Welcome To Our New Project"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btnNext"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector_1"
+            android:text="Next" />
+    </LinearLayout>
+
+
+</RelativeLayout>
